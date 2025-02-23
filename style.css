@@ -1,0 +1,80 @@
+/* Style de base */ 
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center; /* Titre centré */
+    margin-top: 50px;
+    margin-bottom: 30px; /* Espace entre le titre et le texte */
+}
+
+/* Bandeau de navigation */
+header {
+    background-color: #791866;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #941d7c;
+    border-radius: 5px;
+}
+
+/* Contenu principal */
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Conteneur pour le texte et l'image */
+.text-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 900px; /* Limiter la largeur du texte + image à 900px */
+    width: 100%;
+    margin: 0 auto; /* Centrer le conteneur */
+}
+
+.right-align {
+    text-align: right;
+    max-width: 500px; /* Largeur maximale du texte */
+    flex: 1;
+}
+
+.left-img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0; /* Empêche l'image de se réduire */
+}
