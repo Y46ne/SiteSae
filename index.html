@@ -3,31 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'Accueil</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Accueil - Métiers de l'Informatique</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
+                <li><a href="accueil.html">Accueil</a></li>
                 <li><a href="cybersecurite.html">Cybersécurité</a></li>
-                <li><a href="Développement.html">Développement</a></li>
-                <li><a href="ia.html">IA (Intelligence Artificielle)</a></li>
+                <li><a href="developpement.html">Développement logiciel</a></li>
+                <li><a href="ia.html">Intelligence Artificielle</a></li>
                 <li><a href="cloud.html">Cloud</a></li>
+                <li><a href="qsn.html">Qui sommes-nous ?</a></li>
             </ul>
         </nav>
     </header>
-
+    
+    <h1>Bienvenue sur notre site des métiers de l'informatique</h1>
+    <p class="intro">Découvrez les différents secteurs de l'informatique et trouvez votre voie !</p>
+    
     <main>
-        <section class="content">
-            <h1>Bienvenue sur notre site web</h1>
-            <div class="text-image-container">
-                <p class="right-align">Nous vous offrons des solutions innovantes pour répondre à vos besoins en cybersécurité, développement logiciel, IA et cloud.</p>
-                <img src="https://via.placeholder.com/300" alt="Image d'illustration" class="left-img">
+        <section class="grid-container">
+            <div class="card">
+                <img src="images/cybersecurite.jpg" alt="Cybersécurité" class="Imagemétier1">
+                <h2>Cybersécurité</h2>
+                <p>Protéger les données et les systèmes informatiques contre les cyberattaques.</p>
+                <a href="cybersecurite.html">En savoir plus</a>
+            </div>
+            <div class="card">
+                <img src="images/developpement.jpg" alt="Développement logiciel" class="Imagemétier2">
+                <h2>Développement logiciel</h2>
+                <p>Créer des applications et des logiciels adaptés aux besoins des utilisateurs.</p>
+                <a href="developpement.html">En savoir plus</a>
+            </div>
+            <div class="card">
+                <img src="images/ia.jpg" alt="Intelligence Artificielle" class="Imagemétier1">
+                <h2>Intelligence Artificielle</h2>
+                <p>Concevoir des algorithmes et des systèmes intelligents.</p>
+                <a href="ia.html">En savoir plus</a>
+            </div>
+            <div class="card">
+                <img src="images/cloud.jpg" alt="Cloud Computing" class="Imagemétier2">
+                <h2>Cloud Computing</h2>
+                <p>Gérer et optimiser les services et infrastructures hébergés à distance.</p>
+                <a href="cloud.html">En savoir plus</a>
             </div>
         </section>
     </main>
+    
+    <footer>
+        <p> SAE 2.06 2025. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
